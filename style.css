@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(background1.jpg) repeat;
+
+}
+.box{
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+	border-radius: 50%;
+	width: 100px;
+`	height: 100px;
+}
+button{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+.box-2{
+	width: 450px;
+	height: 410px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+button-2{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button-2:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+button-3{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	padding: 8px 60px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button-3:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+.box-3{
+	width: 450px;
+	height: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+button-4{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button-4:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+button-5{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	padding: 8px 60px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button-5:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+.box-4{
+	width: 450px;
+	height: 540px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+button-6{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button-6:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+button-7{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	padding: 8px 60px;
+	margin: 30px 0;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button-7:hover{
+	background: rgb(248, 248, 255);
+	color: rgb(0, 0, 0);
+	transform: translateY(-1px);
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	body{
+		width: 320px;
+}
+}
+@media only screen and (min-width : 481px) and (max-width : 540px) {
+    body {
+        width: 481px;
+}
+}
+  
+@media only screen and (min-width : 541px) and (max-width : 767px) {
+    body {
+        width: 541px;
+}
+}
+  
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+    body {
+        width: 541px;
+}
+}	
